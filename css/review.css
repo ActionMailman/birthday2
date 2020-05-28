@@ -1,0 +1,161 @@
+
+/*GLOBAL STYLES*/
+body {
+	background-color: #a8e4ff;
+	font: 1em 'Arial', monospace;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*Nav Styles*/
+
+.nav {
+	position: absolute;
+	right: 5%;
+	bottom: 25%;
+	font-size: 1.5em;
+}
+
+.nav li {
+	font-family: 'Rubik';
+	float: right;
+	display: inline;
+	text-decoration: none;
+	color: #000000;
+	margin: 10px;
+}
+
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	transition-duration: 0.4s;
+	color: #ffffff;
+	font-style: italic;
+}
+
+/* Main Text */
+
+h1 {
+	font-family: 'Cormorant Garamond';
+	font-size: 10vh;
+	margin-left: 8%;
+
+}
+
+/* Review Styles */
+
+h2 {
+	font-family: 'Cormorant Garamond';
+	margin-left: 4%
+
+}
+
+.review {
+	position: absolute;
+	margin-left: 12%;
+	font-family: 'Cormorant Garamond';
+}
+
+.review p {
+	font-size: 1.5em;
+}
+
+
+.review2 {
+	text-align: right;
+	margin-top: 9%;
+	margin-left: 35%;
+}
+
+.review3 {
+	margin-top: 20%;
+	font-family: 'Noto Serif SC';
+}
+
+.review3 p {
+	font-size: 1.2em;
+}
+
+.chinese {
+	font-family: 'Noto Serif SC';
+}
+
+/* Copyright */
+
+.legal {
+	float: right;
+	bottom: 5px;
+	position: absolute;
+}
+
+/* Animation */
+ body {
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+/* Media Queries */
+
+@media(max-width: 800px) {
+	body {
+		position: relative;
+		font: 1em 'Arial', monospace;
+
+	}
+
+	.nav {
+		position: relative;
+		font-size: 1em;
+		position: relative;
+		right: 5%;
+		bottom: 25%;
+	}
+
+	.review {
+		position: relative;
+		margin: 0;
+	}
+
+	.legal {
+		position: relative;
+	}
+}
